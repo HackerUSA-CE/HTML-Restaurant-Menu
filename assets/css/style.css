@@ -2,4 +2,85 @@ html,
 body {
     margin: 0;
     padding: 0;
+    background-color: beige;
+    text-align: center;
+}
+
+h1,
+h2 {
+    color: darkred;
+}
+
+h3, 
+p,
+li {
+    color: green;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+main {
+    margin: 0 20%;
+}
+
+nav {
+    background-color: beige;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: green;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    color: darkred;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+#banner img {
+    width: 60%;
+    height: auto;
+}
+
+.service {
+    display: inline-block;
+    background-color: white;
+    border: 5px solid green;
+    border-radius: 5px;
+    color: darkred;
+    font-size: 2em;
+    padding: 20px;
+    margin: 10px;
+}
+
+table {
+    border: 3px solid black;
+    width: 100%;
+}
+  
+td,
+th {
+    border: 1px solid black;
+    padding: 5px;
 }
