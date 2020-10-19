@@ -84,3 +84,21 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+/* Bonus-specific Styles */
+.highlight {
+    color: red;
+}
+#holiday {
+    width: 100%;
+    padding: 25px;
+    background-color: yellow;
+}
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: green;
+}
+
+footer p {
+    color: white;
+}
