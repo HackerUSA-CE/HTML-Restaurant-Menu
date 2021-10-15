@@ -1,12 +1,93 @@
 html,
+
 body {
+    height: 100%;
     margin: 0;
-    padding: 0;
-    background-color: beige;
-    text-align: center;
+    background-color: rgb(27, 27, 25);
+    font-style: sans-serif;
+  }
+
+  nav {
+    background-color: rgb(27, 27, 25);
+    padding: 10px;
 }
 
-h1,
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.6em;
+    color: turquoise;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    color: lightpink;
+}
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+  .bgimg-1 {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/QbUDv-xOnV3VR9e_1FGuMVZlKCA=/0x0:1920x1280/1200x800/filters:focal(807x487:1113x793)/cdn.vox-cdn.com/uploads/chorus_image/image/68667829/Chicken_and_waffles_at_Hash_House_A_Go_Go.0.jpg");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("https://www.tasteandtellblog.com/wp-content/uploads/2019/07/Monte-Cristo-Sandwich-tasteandtellblog.com-1.jpg");
+    min-height: 400px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("https://spoonuniversity.com/wp-content/uploads/sites/17/2016/02/IMG_8903-800x533.jpg");
+    min-height: 400px;
+  }
+  
+  h1 {
+    background-color: rgb(27, 27, 25);
+    font-style: sans-serif;
+    font-size: 90px;
+    color: lightpink;
+}
+
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  
+  
+  /* Turn off parallax scrolling for tablets and phones */
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
+    
+
 h2 {
     color: darkred;
 }
@@ -27,30 +108,7 @@ main {
     margin: 0 20%;
 }
 
-nav {
-    background-color: beige;
-    padding: 10px;
-}
 
-nav ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-nav li {
-    display: inline;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 1.6em;
-    color: green;
-    margin-right: 25px;
-}
-
-nav a:hover {
-    color: darkred;
-}
 
 #banner {
     width: 100%;
