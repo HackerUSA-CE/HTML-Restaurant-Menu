@@ -182,9 +182,14 @@ th {
     min-height: 100%;
   }
 
+  /* Turn off parallax scrolling for tablets and phones */
+  
+  @media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+      background-attachment: scroll;
+    }
 
-
-
+/*
   .caption span.border {
     background-color: #111;
     color: #fff;
@@ -192,13 +197,7 @@ th {
     font-size: 25px;
     letter-spacing: 10px;
   }
-  */
-  
-  /* Turn off parallax scrolling for tablets and phones */
-  @media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
-      background-attachment: scroll;
-    }
+ 
     
 /*
 h2 {
