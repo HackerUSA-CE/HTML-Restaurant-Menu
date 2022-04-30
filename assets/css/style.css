@@ -11,10 +11,11 @@ h2 {
     color: darkred;
 }
 
-h3, 
+h3,
 p,
 li {
     color: green;
+    list-style-type: none;
 }
 
 img {
@@ -30,6 +31,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -78,7 +80,7 @@ table {
     border: 3px solid black;
     width: 100%;
 }
-  
+
 td,
 th {
     border: 1px solid black;
