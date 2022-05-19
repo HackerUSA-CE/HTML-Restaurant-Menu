@@ -41,6 +41,10 @@ nav li {
     display: inline;
 }
 
+li {
+    list-style-type: none;
+}
+
 nav a {
     text-decoration: none;
     font-size: 1.6em;
