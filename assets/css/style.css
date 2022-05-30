@@ -15,7 +15,7 @@ h3,
 p,
 li {
     color: green;
-}
+menu.html}
 
 img {
     width: 100%;
@@ -53,7 +53,7 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 50%;
     height: auto;
     background-color: white;
 }
