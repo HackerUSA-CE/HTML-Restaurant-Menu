@@ -30,6 +30,7 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+    width: 100%;
 }
 
 nav ul {
@@ -53,14 +54,15 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 60%;
     height: auto;
     background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 100%;
     height: auto;
+   
 }
 
 .service {
@@ -70,8 +72,9 @@ nav a:hover {
     border-radius: 5px;
     color: darkred;
     font-size: 2em;
-    padding: 20px;
-    margin: 10px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
 }
 
 table {
