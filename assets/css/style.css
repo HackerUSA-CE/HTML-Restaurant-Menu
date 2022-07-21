@@ -8,7 +8,7 @@ body {
 
 h1,
 h2 {
-    color: darkred;
+    color: darkslateblue;
 }
 
 h3, 
@@ -25,10 +25,12 @@ img {
 
 main {
     margin: 0 20%;
-}
+} 
+
 
 nav {
-    background-color: beige;
+    width: 100%;
+    background-color: green;
     padding: 10px;
 }
 
@@ -44,34 +46,33 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 1.6em;
-    color: green;
+    color: whitesmoke;
     margin-right: 25px;
 }
 
 nav a:hover {
-    color: darkred;
+    color: darkslateblue;
 }
 
 #banner {
     width: 100%;
     height: auto;
-    background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
 .service {
     display: inline-block;
+    width: 100px;
     background-color: white;
-    border: 5px solid green;
-    border-radius: 5px;
-    color: darkred;
-    font-size: 2em;
+    border: 2px solid green;
+    border-radius: 2px;
+    font-size: 20px;
     padding: 20px;
-    margin: 10px;
+    margin: 5px;
 }
 
 table {
@@ -84,3 +85,13 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+
+.contactinfo {
+    list-style-type: none;
+
+} 
+
+.location {
+    list-style-type: none;
+}
+
