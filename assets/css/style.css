@@ -84,3 +84,14 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+
+nav {
+    width: 100%;
+}
+
+.service {
+    display: inline-block;
+    text-align: center;
+}
+
+
