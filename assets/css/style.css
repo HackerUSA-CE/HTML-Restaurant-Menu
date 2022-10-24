@@ -2,25 +2,25 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: beige;
+    background-color: rgb(178, 166, 166);
     text-align: center;
 }
 
 h1,
 h2 {
-    color: darkred;
+    color: rgb(255, 255, 255);
 }
 
 h3, 
 p,
 li {
-    color: green;
+    color: rgb(255, 255, 255);
 }
 
 img {
     width: 100%;
     height: auto;
-    max-width: 100%;
+    max-width:50%;
 }
 
 main {
@@ -28,7 +28,7 @@ main {
 }
 
 nav {
-    background-color: beige;
+    background-color: rgb(178, 166, 166);
     padding: 10px;
 }
 
@@ -44,12 +44,12 @@ nav li {
 nav a {
     text-decoration: none;
     font-size: 1.6em;
-    color: green;
+    color: rgb(0, 0, 0);
     margin-right: 25px;
 }
 
 nav a:hover {
-    color: darkred;
+    color: rgb(214, 201, 201);
 }
 
 #banner {
@@ -59,28 +59,29 @@ nav a:hover {
 }
 
 #banner img {
-    width: 60%;
+    width: 100%;
     height: auto;
 }
 
 .service {
     display: inline-block;
-    background-color: white;
-    border: 5px solid green;
+    text-align: center;
+    background-color: rgb(41, 100, 52);
+    border: 5px solid rgb(29, 100, 29);
     border-radius: 5px;
-    color: darkred;
+    color: rgb(255, 255, 255);
     font-size: 2em;
     padding: 20px;
     margin: 10px;
 }
 
 table {
-    border: 3px solid black;
+    border: 3px solid rgb(255, 255, 255);
     width: 100%;
 }
   
 td,
 th {
-    border: 1px solid black;
+    border: 1px solid rgb(255, 253, 253);
     padding: 5px;
 }
