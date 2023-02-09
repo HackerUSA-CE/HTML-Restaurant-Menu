@@ -69,9 +69,10 @@ nav a:hover {
     border: 5px solid green;
     border-radius: 5px;
     color: darkred;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 20px;
     margin: 10px;
+    text-align: center;
 }
 
 table {
@@ -83,4 +84,25 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+.logo {
+    height: 200px;
+    width: 200px;
+}
+
+h3 {
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+}
+
+.tables {
+    height: 250px;
+    width: 500px;
+}
+
+.Locations {
+    list-style-type: none;
+    text-align: center;
 }
