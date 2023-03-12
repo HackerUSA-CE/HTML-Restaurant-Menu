@@ -1,4 +1,8 @@
 html,
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -6,13 +10,18 @@ body {
     text-align: center;
 }
 
-h1,
+h1 {
+    text-align: center;
+}
 h2 {
     color: darkred;
+    text-align: center;
 }
 
 h3, 
-p,
+p {
+    text-align: center;
+}
 li {
     color: green;
 }
@@ -53,9 +62,13 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
+    width: 60%;
     height: auto;
     background-color: white;
+    border-style: groove;
+    border-width: 5px;
+    border-color: purple;
+    
 }
 
 #banner img {
@@ -74,6 +87,11 @@ nav a:hover {
     margin: 10px;
 }
 
+.service {
+    display: inline-block;
+    text-align: center;
+}
+
 table {
     border: 3px solid black;
     width: 100%;
@@ -83,4 +101,28 @@ td,
 th {
     border: 1px solid black;
     padding: 5px;
+}
+
+#tables {
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+
+
+}
+.locations {
+    list-style-type: none;
+    text-align:inherit;
+    
+}
+
+#origin-pic {
+    border-style: ridge;
+    border-width: 5px;
+    border-color: green;
+}
+.origin-story {
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
 }
